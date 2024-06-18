@@ -62,7 +62,7 @@ function loadProducts() {
         const productDiv = document.createElement('div');
         productDiv.classList.add('product');
         productDiv.innerHTML = `
-            <img src="${product.image}" alt="${product.name}" width="100" height="100">
+            <img src="${product.image}" alt="${product.name}" width="900" height="700">
             <h3>${product.name}</h3>
             <p>${product.price}</p>
         `;

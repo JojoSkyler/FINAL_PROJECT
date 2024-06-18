@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: rgb(7, 6, 6);
+    padding: 0.5px 0px;
+    text-align: center;
+    font-size:larger;
+    font-weight: bold;
+}
+
+introduction {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.5);
+    text-align: center;
+    font-size: large;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display:inline-block;
+    padding: 10px 20px;
+    background-color:#030303;
+    color:aliceblue;
+    border-radius: 50px; /* This makes the buttons oval-shaped */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color:beige; /* Change color on hover */
+}
+
+section {
+    padding: 20px;
+}
+
+#home {
+    background: url('background2.jpeg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 200px 20px;
+    font-size: x-large;  
+}
+
+#about {
+    background: url('bg.jpg');
+    color: rgb(17, 17, 17);
+    text-align: center;
+    font-size: x-large;
+    background-size: cover; /* Adjust how the background image is sized */
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.5);
+    font-weight: bolder;
+}
+
+
+#contact{
+    background-color: white;
+    margin:20px 0;
+    padding: 10px;
+}
+
+#products {
+    background-image: url('background4.jpg');
+    background-size: cover; /* Adjust how the background image is sized */
+    margin:20px 0;
+    padding: 20px;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+#products .product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#products .product img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: space-between;
+    padding: 20px;
+}
